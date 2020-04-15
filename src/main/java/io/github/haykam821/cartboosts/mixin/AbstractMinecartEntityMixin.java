@@ -10,6 +10,6 @@ import net.minecraft.entity.vehicle.AbstractMinecartEntity;
 public class AbstractMinecartEntityMixin {
 	@ModifyConstant(method = "pushAwayFrom", constant = @Constant(doubleValue = 0.800000011920929d))
 	private double makeMinecartsPushEachOther(double value) {
-		return Double.MIN_VALUE;
+		return -Double.MAX_VALUE;
 	}
 }
