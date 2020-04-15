@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "cartboosts",
+	"version": "${version}",
+	"name": "Cart Boosts",
+	"description": "Brings back minecart boosting from earlier beta versions of Minecraft.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Cart-Boosts#readme",
+		"issues": "https://github.com/haykam821/Cart-Boosts/issues"
+	},
+	"mixins": [
+		"cartboosts.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/cartboosts/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
